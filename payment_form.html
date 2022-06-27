@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styledalo.css">
+    <title>payment form</title>
+</head>
+<body>
+    <h1>PAYMENT FORM</h1>
+    <h2>CONTACT INFORMATION</h2>
+    <p>
+         NAME: *<input type="text" name ="name" required class="area">
+    </p>
+    <P>
+        <FIEldset class="area">
+            <LEGENd>GENDER *</LEGENd>
+            male <input type="radio" name="gender" id="male" required>
+            female <input type="radio" name="gender" id="female" required>
+            
+
+        </FIEldset>
+        
+    </P>
+    <p id="one" >
+       ADDRESS *<textarea name="address"  id="address" cols="100" rows="10" required class="area"></textarea>
+    </p>
+    <p>DATE OF BIRTH : * <input type="date" name="date" id="date" class="area"></p>
+    <p>PHONE NUMBER:* <input type="number" name="ph" id="ph no." required class="area"></p>
+    <hr>
+    <h2>CARD DETAILS</h2>
+    <P>
+        CARD TYPE:
+         <select name="card type" id="card type" required
+         class="area">
+            <option value="">--select card type--</option>
+            <option value="visa">visa</option>
+            <option value="rupay" >rupay</option>
+            <option value="mastercard" >mastercard</option>
+        </select>
+    </P>
+    <p>NAME OF CARD HOLDER:* <input type="name of catd holder" required class="area"></p>
+    <p>CARD NUMBER :* <input type="number" name="card number" id="card number" required class="area"></p>
+    <p> CARD EXPIRY DATE:* <input type="date" name="exp" id="exp" required class="area"></p>
+    <p class="submit"> <input type="submit" value="pay now"></p>
+
+   
+
+</body>
+</html>
