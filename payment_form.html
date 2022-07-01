@@ -8,10 +8,12 @@
     <title>payment form</title>
 </head>
 <body>
-    <h1>PAYMENT FORM</h1>
+    <div class="container">
+    <h1 class="main_heading">PAYMENT FORM</h1>
+    <hr>
     <h2>CONTACT INFORMATION</h2>
     <p>
-         NAME: *<input type="text" name ="name" required class="area">
+         NAME: *<input type="text" name ="name" placeholder="Ex:- john roy" required class="area">
     </p>
     <P>
         <FIEldset class="area">
@@ -24,10 +26,10 @@
         
     </P>
     <p id="one" >
-       ADDRESS *<textarea name="address"  id="address" cols="100" rows="10" required class="area"></textarea>
+       ADDRESS *<textarea name="address"  id="address" cols="100" rows="10" placeholder="Ex:- Dwarka" required class="area"></textarea>
     </p>
     <p>DATE OF BIRTH : * <input type="date" name="date" id="date" class="area"></p>
-    <p>PHONE NUMBER:* <input type="number" name="ph" id="ph no." required class="area"></p>
+    <p>PHONE NUMBER:* <input type="number" name="ph" id="ph no." placeholder="011-xyz" required class="area"></p>
     <hr>
     <h2>CARD DETAILS</h2>
     <P>
@@ -40,12 +42,12 @@
             <option value="mastercard" >mastercard</option>
         </select>
     </P>
-    <p>NAME OF CARD HOLDER:* <input type="name of catd holder" required class="area"></p>
-    <p>CARD NUMBER :* <input type="number" name="card number" id="card number" required class="area"></p>
+    <p>NAME OF CARD HOLDER:* <input type="text" required class="area"></p>
+    <p>CARD NUMBER :* <input type="number" name="card number" id="card number" placeholder="1111-0000-1111-0000" required class="area"></p>
     <p> CARD EXPIRY DATE:* <input type="date" name="exp" id="exp" required class="area"></p>
     <p class="submit"> <input type="submit" value="pay now"></p>
 
-   
+</div>
 
 </body>
 </html>
